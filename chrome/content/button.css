@@ -1,0 +1,11 @@
+#llhouse-button{
+  list-style-image: url("chrome://llhouse-cb/content/icon24.png");
+  -moz-box-orient: vertical;  
+}
+/*  Copyright © 2010-2011, 2014-2015 Liquidity Lighthouse, LLC.  All Rights Reserved.  */
+#llhouse-button:hover     
+  {list-style-image: url("chrome://llhouse-cb/content/icon24.png");}
+[iconsize="small"] #llhouse-button
+  {list-style-image: url("chrome://llhouse-cb/content/icon18.png");}
+[iconsize="small"] #llhouse-button:hover
+  {list-style-image: url("chrome://llhouse-cb/content/icon18.png");}
