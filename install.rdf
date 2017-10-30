@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+	<em:id>llhouse-custom-button@liquiditylighthouse.com</em:id>
+    <em:version>2.50</em:version>
+    <!-- Firefox -->
+	<em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>1.5</em:minVersion>
+        <em:maxVersion>99.6.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+	<!-- Front End MetaData -->
+	<em:creator>Liquidity Lighthouse, LLC</em:creator>
+    <em:name>Liquidity Lighthouse Button</em:name>
+    <em:description>FirstButton for Liquidity Lighthouse, LLC</em:description>
+	<em:homepageURL>http://www.liquiditylighthouse.com</em:homepageURL>
+    <em:iconURL>chrome://llhouse-cb/content/icon64.png</em:iconURL>
+    <em:icon64URL>chrome://llhouse-cb/content/icon64.png</em:icon64URL>
+  </Description>
+</RDF>

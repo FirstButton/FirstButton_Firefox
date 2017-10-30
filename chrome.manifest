@@ -1,0 +1,5 @@
+# Copyright © 2010-2011, 2014 Liquidity Lighthouse, LLC.  All Rights Reserved.
+#   chrome.manifest   -   FirstButton for FF 2.50
+content llhouse-cb     chrome/content/
+style	chrome://global/content/customizeToolbar.xul	chrome://llhouse-cb/content/button.css
+overlay	chrome://browser/content/browser.xul	chrome://llhouse-cb/content/llhouse-cb.xul
